@@ -1,0 +1,268 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #a05353;
+    color:  rgb(2, 9, 105);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.6em;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#navbar {
+    position: fixed;
+    width: 17.8%;
+    height: 100%;
+    border:1px solid rgb(116, 0, 0);
+    box-shadow: 0 0 20px 0 rgb(141, 1, 1);
+    background-color: rgb(0, 0, 102);
+    padding: 2%;
+   overflow-y: auto;
+}
+
+#navbar .container h1{
+    color:  rgb(1, 247, 75);
+    text-align: center;
+    font-size: 1em;
+}
+
+#navbar img{
+    width: 100%;
+    border-radius: 50%;
+    margin: auto;
+    float: left;
+}
+
+nav ol{
+    padding-left: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+nav ol li{
+    display: inline-block;
+    letter-spacing: 0.5em;
+} 
+
+
+nav ul{
+    padding-left: 0px;
+    line-height: 3em;
+    list-style: none;
+    display: inline-block;
+
+}
+#navbar ul li a{
+     font-size: 1em;
+}
+#navbar a{
+    color: rgb(179, 255, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#navbar a:hover{
+    color: rgb(235, 8, 167);
+}
+  
+
+#home{  
+    background-image: url('./Images/cs.png');
+    box-shadow: 0 0 20px 0 black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20%;
+    padding-bottom: 401px;
+}
+
+#home h1{
+    color:rgb(248, 0, 0);
+    font-size: 40px;
+    margin-top: 40%;
+}
+
+#home h2{
+    color:rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+#about{
+    color: rgb(0, 0, 0);
+    margin-left: 20%;
+    padding-top: 10%;
+    line-height: 2em;
+    text-align: justify;
+}
+
+#about ul{
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.25em;    
+    line-height: 2.9em;
+    list-style: none;
+    margin: auto;
+    justify-content: center;
+
+}
+#about ul li{
+  display: list-item;
+    margin-left: 10%;
+}
+
+#about img{
+    display: block;
+    margin: auto;
+}
+
+#skills{
+    color: black;
+    margin: 20%;
+    padding-left: 10%;
+}
+
+#skills img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skills h1{
+    font-size: 2em;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+#skills ul{
+    font-size: 25px;
+    margin-top: 5%;
+    line-height: 1.5em;
+    font-family:monospace;
+}
+
+#skills ol{
+    list-style: none;
+    padding: 0;
+}
+ 
+#skills ol li{
+    margin: 20px 0;
+}
+
+#projects{
+    color: black;
+    text-align: center;
+}
+
+#projects h1{
+    font-size: 1.5em;
+}
+
+#projects h2{
+    font-size: 1.25em;
+    font-family: sans-serif;
+
+}
+
+#projects h3{
+    margin: 1% auto;
+    text-align: center;
+    padding-left: 20%;
+    font-size: 1.25em;
+    font-family: 'Gill Sans';
+    background-color: rgb(92, 100, 85);
+    box-sizing: border-box;
+    border: 3px solid black;
+    box-shadow: 0 0 10px 0 black;
+    color: rgb(216, 213, 210);
+}
+
+#projects img{
+    padding-top: 10px;
+    margin-left: 15%;
+    width: 60%;
+    height: 50%;
+    box-shadow: 0 0 15px 0 black ;
+    border: 5px solid black ;
+}
+
+#contact{
+    text-align: center;
+    background-image: url('./Images/contact.jpg');
+    box-shadow: 0 0 20px 0 rgb(170, 170, 170);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 9.1%;
+    color: rgb(255, 0, 0);
+
+}
+
+#contact h1{
+    padding-left: 5%;
+    margin: 1% auto;
+    font-size: 1.25em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+#contact h2{
+    padding-left: 5%;
+    margin: 1% auto;
+    font-size: 1.25em;
+    color: rgb(0, 0, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#contact ul{
+    float: left;
+    color: rgb(226, 221, 221);
+    font-size: 20px;
+    list-style: none;
+    line-height: 5em;
+}
+
+#contact .box{
+    margin: 1% auto;
+    width: 50%;
+    background-color: rgb(116, 110, 110);
+    box-shadow: 0 0 10px 0;
+}   
+
+.input{
+    width: 60%;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10%;
+    border: 2px solid black;
+    border-radius: 14px;
+    outline: none ;
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+
+.but{
+    margin: 5% auto;
+    display: block;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(21, 182, 21);
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+}
